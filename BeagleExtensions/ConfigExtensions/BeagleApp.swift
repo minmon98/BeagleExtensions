@@ -12,7 +12,7 @@ import BeagleScaffold
 public class BeagleApp {
     public static let shared = BeagleApp()
     
-    func config(host: String) {
+    public func config(host: String) {
         let dependencies = BeagleDependencies()
         dependencies.urlBuilder = UrlBuilder(baseUrl: URL(string: host)!)
         
