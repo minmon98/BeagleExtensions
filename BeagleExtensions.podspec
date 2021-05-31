@@ -8,13 +8,13 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "BeagleExtensions"
-  spec.version      = "1.0.2"
+  spec.version      = "1.0.3"
   spec.summary      = "An extension of beagle framework."
   spec.description  = "An extension of beagle framework. It contains action and widget extensions."
   spec.homepage     = "https://github.com/minmon98/BeagleExtensions"
   spec.license      = "MIT"
   spec.author             = { "Minh Mon" => "phivanminh10@gmail.com" }
-  spec.platform     = :ios, "13.0"
+  spec.platform     = :ios, "12.0"
   spec.source       = { :git => "https://github.com/minmon98/BeagleExtensions.git", :tag => spec.version.to_s }
   spec.source_files  = "BeagleExtensions/**/*.{swift}"
   spec.swift_versions = "5.0"
