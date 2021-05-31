@@ -70,12 +70,13 @@ class GridViewUIComponent: UIView {
     }
     
     private func commitInit() {
-        Bundle.main.loadNibNamed("GridViewUIComponent", owner: self, options: nil)
+        let bundle = Bundle(for: GridViewUIComponent.self)
+        bundle.loadNibNamed("GridViewUIComponent", owner: self, options: nil)
         self.addSubview(containView)
         containView.frame = bounds
         containView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         
-        collectionView.register(UINib(nibName: "GridViewCell", bundle: nil), forCellWithReuseIdentifier: "GridViewCell")
+        collectionView.register(UINib(nibName: "GridViewCell", bundle: bundle), forCellWithReuseIdentifier: "GridViewCell")
         
         guard let layout = collectionView.collectionViewLayout as? UICollectionViewFlowLayout else {
             return

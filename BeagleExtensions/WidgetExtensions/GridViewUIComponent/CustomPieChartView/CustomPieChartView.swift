@@ -53,7 +53,8 @@ class CustomPieChartView: UIView {
     }
     
     private func commitInit() {
-        Bundle.main.loadNibNamed("CustomPieChartView", owner: self, options: nil)
+        let bundle = Bundle(for: CustomPieChartView.self)
+        bundle.loadNibNamed("CustomPieChartView", owner: self, options: nil)
         addSubview(contentView)
         contentView.frame = bounds
         contentView.autoresizingMask = [.flexibleWidth, .flexibleHeight]

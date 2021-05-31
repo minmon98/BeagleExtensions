@@ -45,7 +45,8 @@ class CustomCardView: UIView {
     }
     
     private func commitInit() {
-        Bundle.main.loadNibNamed("CustomCardView", owner: self, options: nil)
+        let bundle = Bundle(for: CustomCardView.self)
+        bundle.loadNibNamed("CustomCardView", owner: self, options: nil)
         addSubview(containView)
         containView.frame = bounds
         containView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
