@@ -7,7 +7,7 @@ public struct ImagePicker: ServerDrivenComponent {
     var width: Int?
     var height: Int?
     var cornerRadius: Double?
-    static var instance: UIImageView?
+    public static var instance: UIImageView?
     
     public func toView(renderer: BeagleRenderer) -> UIView {
         let imagePicker = UIImageView()
