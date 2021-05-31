@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="GridViewCell" id="gTV-IL-0wX" customClass="GridViewCell" customModule="i_BPMS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="281" height="183"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="281" height="183"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YgV-kh-cKk">
+                        <rect key="frame" x="0.0" y="0.0" width="281" height="183"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="281" id="5ZE-f0-9aF"/>
+                            <constraint firstAttribute="height" constant="183" id="ep7-83-HZG"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="YgV-kh-cKk" secondAttribute="bottom" id="CoW-dm-CVb"/>
+                <constraint firstAttribute="trailing" secondItem="YgV-kh-cKk" secondAttribute="trailing" id="EH5-K8-AbB"/>
+                <constraint firstItem="YgV-kh-cKk" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="I2T-pk-bPE"/>
+                <constraint firstItem="YgV-kh-cKk" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="OUK-tg-ICh"/>
+            </constraints>
+            <size key="customSize" width="281" height="183"/>
+            <connections>
+                <outlet property="beagleContainerView" destination="YgV-kh-cKk" id="AdW-Ke-8Cf"/>
+                <outlet property="heightConstraint" destination="ep7-83-HZG" id="6UT-mh-tQU"/>
+                <outlet property="widthConstraint" destination="5ZE-f0-9aF" id="xAk-O7-ZUk"/>
+            </connections>
+            <point key="canvasLocation" x="154.34782608695653" y="67.299107142857139"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

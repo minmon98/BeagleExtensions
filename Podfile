@@ -9,4 +9,9 @@ target 'BeagleExtensions' do
   pod 'Beagle'
   pod 'BeagleSchema'
   pod 'BeagleScaffold'
+  pod 'Charts'
+  pod 'SVProgressHUD'
+  pod 'MaterialComponents'
+  pod 'SDWebImage'
+  pod 'SwiftGifOrigin'
 end

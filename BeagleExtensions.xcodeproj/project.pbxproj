@@ -9,7 +9,40 @@
 /* Begin PBXBuildFile section */
 		04BB124774125D9444990CB4 /* Pods_BeagleExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAFC9FCB172FE9364046FFF /* Pods_BeagleExtensions.framework */; };
 		3741489C26646C0300BFDE19 /* BeagleExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3741489A26646C0300BFDE19 /* BeagleExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		37E8A4F82664731A005F4F2F /* NavigateAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E8A4F72664731A005F4F2F /* NavigateAction.swift */; };
+		3796E46526648088006B8230 /* AccountBalance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3796E44326648088006B8230 /* AccountBalance.swift */; };
+		3796E46626648088006B8230 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3796E44426648088006B8230 /* Label.swift */; };
+		3796E46726648088006B8230 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3796E44526648088006B8230 /* Card.swift */; };
+		3796E46826648088006B8230 /* CustomOTPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3796E44626648088006B8230 /* CustomOTPTextField.swift */; };
+		3796E46926648088006B8230 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3796E44726648088006B8230 /* ImagePicker.swift */; };
+		3796E46A26648088006B8230 /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3796E44826648088006B8230 /* PieChart.swift */; };
+		3796E46B26648088006B8230 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3796E44926648088006B8230 /* GridView.swift */; };
+		3796E47A26648088006B8230 /* OpenDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3796E45926648088006B8230 /* OpenDatePicker.swift */; };
+		3796E47C26648088006B8230 /* LoadingAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3796E45B26648088006B8230 /* LoadingAction.swift */; };
+		3796E48226648088006B8230 /* BeagleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3796E46226648088006B8230 /* BeagleApp.swift */; };
+		3796E48326648088006B8230 /* BeagleTitleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3796E46426648088006B8230 /* BeagleTitleStyle.swift */; };
+		3796E4AC26648509006B8230 /* NavigateAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3796E4AB26648509006B8230 /* NavigateAction.swift */; };
+		3796E4B626648738006B8230 /* FloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3796E4B126648738006B8230 /* FloatingButton.swift */; };
+		3796E4B726648738006B8230 /* CustomCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3796E4B226648738006B8230 /* CustomCardView.swift */; };
+		3796E4B826648738006B8230 /* CustomPieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3796E4B326648738006B8230 /* CustomPieChartView.swift */; };
+		3796E4B926648738006B8230 /* CustomCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3796E4B426648738006B8230 /* CustomCardView.xib */; };
+		3796E4BA26648738006B8230 /* CustomPieChartView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3796E4B526648738006B8230 /* CustomPieChartView.xib */; };
+		3796E4F826648831006B8230 /* GridViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3796E4F426648831006B8230 /* GridViewCell.xib */; };
+		3796E4F926648831006B8230 /* GridViewUIComponent.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3796E4F526648831006B8230 /* GridViewUIComponent.xib */; };
+		3796E4FA26648831006B8230 /* GridViewUIComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3796E4F626648831006B8230 /* GridViewUIComponent.swift */; };
+		3796E4FB26648831006B8230 /* GridViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3796E4F726648831006B8230 /* GridViewCell.swift */; };
+		3796E51C266488C0006B8230 /* OTPFieldConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3796E504266488C0006B8230 /* OTPFieldConfiguration.swift */; };
+		3796E51D266488C0006B8230 /* RoundTextFieldAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3796E508266488C0006B8230 /* RoundTextFieldAdapter.swift */; };
+		3796E51E266488C0006B8230 /* DefaultTextFieldAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3796E50A266488C0006B8230 /* DefaultTextFieldAdapter.swift */; };
+		3796E51F266488C0006B8230 /* DefaultPinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3796E50D266488C0006B8230 /* DefaultPinView.swift */; };
+		3796E520266488C0006B8230 /* DefaultPinView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3796E50E266488C0006B8230 /* DefaultPinView.xib */; };
+		3796E521266488C0006B8230 /* RoundPinView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3796E510266488C0006B8230 /* RoundPinView.xib */; };
+		3796E522266488C0006B8230 /* RoundPinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3796E511266488C0006B8230 /* RoundPinView.swift */; };
+		3796E523266488C0006B8230 /* OTPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3796E512266488C0006B8230 /* OTPTextField.swift */; };
+		3796E524266488C0006B8230 /* BaseInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3796E515266488C0006B8230 /* BaseInputView.swift */; };
+		3796E525266488C0006B8230 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3796E517266488C0006B8230 /* UIView.swift */; };
+		3796E526266488C0006B8230 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3796E518266488C0006B8230 /* Array.swift */; };
+		3796E527266488C0006B8230 /* OTPTextFieldData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3796E51A266488C0006B8230 /* OTPTextFieldData.swift */; };
+		3796E528266488C0006B8230 /* PinContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3796E51B266488C0006B8230 /* PinContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,7 +50,40 @@
 		3741489726646C0300BFDE19 /* BeagleExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BeagleExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3741489A26646C0300BFDE19 /* BeagleExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeagleExtensions.h; sourceTree = "<group>"; };
 		3741489B26646C0300BFDE19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		37E8A4F72664731A005F4F2F /* NavigateAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigateAction.swift; sourceTree = "<group>"; };
+		3796E44326648088006B8230 /* AccountBalance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountBalance.swift; sourceTree = "<group>"; };
+		3796E44426648088006B8230 /* Label.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		3796E44526648088006B8230 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		3796E44626648088006B8230 /* CustomOTPTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomOTPTextField.swift; sourceTree = "<group>"; };
+		3796E44726648088006B8230 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		3796E44826648088006B8230 /* PieChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieChart.swift; sourceTree = "<group>"; };
+		3796E44926648088006B8230 /* GridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		3796E45926648088006B8230 /* OpenDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenDatePicker.swift; sourceTree = "<group>"; };
+		3796E45B26648088006B8230 /* LoadingAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingAction.swift; sourceTree = "<group>"; };
+		3796E46226648088006B8230 /* BeagleApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeagleApp.swift; sourceTree = "<group>"; };
+		3796E46426648088006B8230 /* BeagleTitleStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeagleTitleStyle.swift; sourceTree = "<group>"; };
+		3796E4AB26648509006B8230 /* NavigateAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigateAction.swift; sourceTree = "<group>"; };
+		3796E4B126648738006B8230 /* FloatingButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingButton.swift; sourceTree = "<group>"; };
+		3796E4B226648738006B8230 /* CustomCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCardView.swift; sourceTree = "<group>"; };
+		3796E4B326648738006B8230 /* CustomPieChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPieChartView.swift; sourceTree = "<group>"; };
+		3796E4B426648738006B8230 /* CustomCardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCardView.xib; sourceTree = "<group>"; };
+		3796E4B526648738006B8230 /* CustomPieChartView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomPieChartView.xib; sourceTree = "<group>"; };
+		3796E4F426648831006B8230 /* GridViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GridViewCell.xib; sourceTree = "<group>"; };
+		3796E4F526648831006B8230 /* GridViewUIComponent.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GridViewUIComponent.xib; sourceTree = "<group>"; };
+		3796E4F626648831006B8230 /* GridViewUIComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridViewUIComponent.swift; sourceTree = "<group>"; };
+		3796E4F726648831006B8230 /* GridViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridViewCell.swift; sourceTree = "<group>"; };
+		3796E504266488C0006B8230 /* OTPFieldConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPFieldConfiguration.swift; sourceTree = "<group>"; };
+		3796E508266488C0006B8230 /* RoundTextFieldAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundTextFieldAdapter.swift; sourceTree = "<group>"; };
+		3796E50A266488C0006B8230 /* DefaultTextFieldAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultTextFieldAdapter.swift; sourceTree = "<group>"; };
+		3796E50D266488C0006B8230 /* DefaultPinView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultPinView.swift; sourceTree = "<group>"; };
+		3796E50E266488C0006B8230 /* DefaultPinView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DefaultPinView.xib; sourceTree = "<group>"; };
+		3796E510266488C0006B8230 /* RoundPinView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RoundPinView.xib; sourceTree = "<group>"; };
+		3796E511266488C0006B8230 /* RoundPinView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundPinView.swift; sourceTree = "<group>"; };
+		3796E512266488C0006B8230 /* OTPTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPTextField.swift; sourceTree = "<group>"; };
+		3796E515266488C0006B8230 /* BaseInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseInputView.swift; sourceTree = "<group>"; };
+		3796E517266488C0006B8230 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		3796E518266488C0006B8230 /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		3796E51A266488C0006B8230 /* OTPTextFieldData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPTextFieldData.swift; sourceTree = "<group>"; };
+		3796E51B266488C0006B8230 /* PinContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinContainer.swift; sourceTree = "<group>"; };
 		ECC9F9557DF80569F25FAF9C /* Pods-BeagleExtensions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeagleExtensions.debug.xcconfig"; path = "Target Support Files/Pods-BeagleExtensions/Pods-BeagleExtensions.debug.xcconfig"; sourceTree = "<group>"; };
 		FAF0E48954910A0C1CB2216B /* Pods-BeagleExtensions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeagleExtensions.release.xcconfig"; path = "Target Support Files/Pods-BeagleExtensions/Pods-BeagleExtensions.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,27 +129,228 @@
 		3741489926646C0300BFDE19 /* BeagleExtensions */ = {
 			isa = PBXGroup;
 			children = (
-				37E8A4F6266472DC005F4F2F /* WidgetExtensions */,
-				37E8A4F5266472CA005F4F2F /* ActionExtensions */,
+				3796E44C26648088006B8230 /* ActionExtensions */,
+				3796E46126648088006B8230 /* ConfigExtensions */,
+				3796E46326648088006B8230 /* StyleExtensions */,
+				3796E44226648088006B8230 /* WidgetExtensions */,
 				3741489A26646C0300BFDE19 /* BeagleExtensions.h */,
 				3741489B26646C0300BFDE19 /* Info.plist */,
 			);
 			path = BeagleExtensions;
 			sourceTree = "<group>";
 		};
-		37E8A4F5266472CA005F4F2F /* ActionExtensions */ = {
+		3796E44226648088006B8230 /* WidgetExtensions */ = {
 			isa = PBXGroup;
 			children = (
-				37E8A4F72664731A005F4F2F /* NavigateAction.swift */,
+				3796E500266488C0006B8230 /* SFOTPTextField */,
+				3796E4F326648831006B8230 /* GridViewUIComponent */,
+				3796E4B126648738006B8230 /* FloatingButton.swift */,
+				3796E45926648088006B8230 /* OpenDatePicker.swift */,
+				3796E44326648088006B8230 /* AccountBalance.swift */,
+				3796E44426648088006B8230 /* Label.swift */,
+				3796E44526648088006B8230 /* Card.swift */,
+				3796E44626648088006B8230 /* CustomOTPTextField.swift */,
+				3796E44726648088006B8230 /* ImagePicker.swift */,
+				3796E44826648088006B8230 /* PieChart.swift */,
+				3796E44926648088006B8230 /* GridView.swift */,
+			);
+			path = WidgetExtensions;
+			sourceTree = "<group>";
+		};
+		3796E44C26648088006B8230 /* ActionExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				3796E45B26648088006B8230 /* LoadingAction.swift */,
+				3796E4AB26648509006B8230 /* NavigateAction.swift */,
 			);
 			path = ActionExtensions;
 			sourceTree = "<group>";
 		};
-		37E8A4F6266472DC005F4F2F /* WidgetExtensions */ = {
+		3796E46126648088006B8230 /* ConfigExtensions */ = {
 			isa = PBXGroup;
 			children = (
+				3796E46226648088006B8230 /* BeagleApp.swift */,
 			);
-			path = WidgetExtensions;
+			path = ConfigExtensions;
+			sourceTree = "<group>";
+		};
+		3796E46326648088006B8230 /* StyleExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				3796E46426648088006B8230 /* BeagleTitleStyle.swift */,
+			);
+			path = StyleExtensions;
+			sourceTree = "<group>";
+		};
+		3796E4F326648831006B8230 /* GridViewUIComponent */ = {
+			isa = PBXGroup;
+			children = (
+				3796E4FF2664885E006B8230 /* CustomPieChartView */,
+				3796E4FE2664884C006B8230 /* GridView */,
+				3796E4FD2664883D006B8230 /* CustomCardView */,
+			);
+			path = GridViewUIComponent;
+			sourceTree = "<group>";
+		};
+		3796E4FD2664883D006B8230 /* CustomCardView */ = {
+			isa = PBXGroup;
+			children = (
+				3796E4B226648738006B8230 /* CustomCardView.swift */,
+				3796E4B426648738006B8230 /* CustomCardView.xib */,
+			);
+			path = CustomCardView;
+			sourceTree = "<group>";
+		};
+		3796E4FE2664884C006B8230 /* GridView */ = {
+			isa = PBXGroup;
+			children = (
+				3796E4F426648831006B8230 /* GridViewCell.xib */,
+				3796E4F526648831006B8230 /* GridViewUIComponent.xib */,
+				3796E4F626648831006B8230 /* GridViewUIComponent.swift */,
+				3796E4F726648831006B8230 /* GridViewCell.swift */,
+			);
+			path = GridView;
+			sourceTree = "<group>";
+		};
+		3796E4FF2664885E006B8230 /* CustomPieChartView */ = {
+			isa = PBXGroup;
+			children = (
+				3796E4B326648738006B8230 /* CustomPieChartView.swift */,
+				3796E4B526648738006B8230 /* CustomPieChartView.xib */,
+			);
+			path = CustomPieChartView;
+			sourceTree = "<group>";
+		};
+		3796E500266488C0006B8230 /* SFOTPTextField */ = {
+			isa = PBXGroup;
+			children = (
+				3796E501266488C0006B8230 /* OTPTextField */,
+			);
+			path = SFOTPTextField;
+			sourceTree = "<group>";
+		};
+		3796E501266488C0006B8230 /* OTPTextField */ = {
+			isa = PBXGroup;
+			children = (
+				3796E502266488C0006B8230 /* TextField */,
+				3796E513266488C0006B8230 /* Library */,
+			);
+			path = OTPTextField;
+			sourceTree = "<group>";
+		};
+		3796E502266488C0006B8230 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				3796E503266488C0006B8230 /* Configuration */,
+				3796E505266488C0006B8230 /* Default */,
+				3796E512266488C0006B8230 /* OTPTextField.swift */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
+		3796E503266488C0006B8230 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				3796E504266488C0006B8230 /* OTPFieldConfiguration.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		3796E505266488C0006B8230 /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				3796E506266488C0006B8230 /* Adapter */,
+				3796E50B266488C0006B8230 /* PinViews */,
+			);
+			path = Default;
+			sourceTree = "<group>";
+		};
+		3796E506266488C0006B8230 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				3796E507266488C0006B8230 /* RoundTextFieldAdapter */,
+				3796E509266488C0006B8230 /* DefaultTextFieldAdapter */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		3796E507266488C0006B8230 /* RoundTextFieldAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				3796E508266488C0006B8230 /* RoundTextFieldAdapter.swift */,
+			);
+			path = RoundTextFieldAdapter;
+			sourceTree = "<group>";
+		};
+		3796E509266488C0006B8230 /* DefaultTextFieldAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				3796E50A266488C0006B8230 /* DefaultTextFieldAdapter.swift */,
+			);
+			path = DefaultTextFieldAdapter;
+			sourceTree = "<group>";
+		};
+		3796E50B266488C0006B8230 /* PinViews */ = {
+			isa = PBXGroup;
+			children = (
+				3796E50C266488C0006B8230 /* DefaultPinView */,
+				3796E50F266488C0006B8230 /* RoundPinView */,
+			);
+			path = PinViews;
+			sourceTree = "<group>";
+		};
+		3796E50C266488C0006B8230 /* DefaultPinView */ = {
+			isa = PBXGroup;
+			children = (
+				3796E50D266488C0006B8230 /* DefaultPinView.swift */,
+				3796E50E266488C0006B8230 /* DefaultPinView.xib */,
+			);
+			path = DefaultPinView;
+			sourceTree = "<group>";
+		};
+		3796E50F266488C0006B8230 /* RoundPinView */ = {
+			isa = PBXGroup;
+			children = (
+				3796E510266488C0006B8230 /* RoundPinView.xib */,
+				3796E511266488C0006B8230 /* RoundPinView.swift */,
+			);
+			path = RoundPinView;
+			sourceTree = "<group>";
+		};
+		3796E513266488C0006B8230 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				3796E514266488C0006B8230 /* BaseClasses */,
+				3796E516266488C0006B8230 /* Extensions */,
+				3796E519266488C0006B8230 /* Protocols */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		3796E514266488C0006B8230 /* BaseClasses */ = {
+			isa = PBXGroup;
+			children = (
+				3796E515266488C0006B8230 /* BaseInputView.swift */,
+			);
+			path = BaseClasses;
+			sourceTree = "<group>";
+		};
+		3796E516266488C0006B8230 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3796E517266488C0006B8230 /* UIView.swift */,
+				3796E518266488C0006B8230 /* Array.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3796E519266488C0006B8230 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3796E51A266488C0006B8230 /* OTPTextFieldData.swift */,
+				3796E51B266488C0006B8230 /* PinContainer.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 		87A202619AB8CCDA5597F019 /* Pods */ = {
@@ -165,6 +432,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3796E4B926648738006B8230 /* CustomCardView.xib in Resources */,
+				3796E4BA26648738006B8230 /* CustomPieChartView.xib in Resources */,
+				3796E4F926648831006B8230 /* GridViewUIComponent.xib in Resources */,
+				3796E521266488C0006B8230 /* RoundPinView.xib in Resources */,
+				3796E4F826648831006B8230 /* GridViewCell.xib in Resources */,
+				3796E520266488C0006B8230 /* DefaultPinView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,7 +473,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37E8A4F82664731A005F4F2F /* NavigateAction.swift in Sources */,
+				3796E4FB26648831006B8230 /* GridViewCell.swift in Sources */,
+				3796E47A26648088006B8230 /* OpenDatePicker.swift in Sources */,
+				3796E46626648088006B8230 /* Label.swift in Sources */,
+				3796E46726648088006B8230 /* Card.swift in Sources */,
+				3796E4B726648738006B8230 /* CustomCardView.swift in Sources */,
+				3796E4B626648738006B8230 /* FloatingButton.swift in Sources */,
+				3796E4B826648738006B8230 /* CustomPieChartView.swift in Sources */,
+				3796E528266488C0006B8230 /* PinContainer.swift in Sources */,
+				3796E51E266488C0006B8230 /* DefaultTextFieldAdapter.swift in Sources */,
+				3796E4FA26648831006B8230 /* GridViewUIComponent.swift in Sources */,
+				3796E526266488C0006B8230 /* Array.swift in Sources */,
+				3796E46926648088006B8230 /* ImagePicker.swift in Sources */,
+				3796E4AC26648509006B8230 /* NavigateAction.swift in Sources */,
+				3796E51D266488C0006B8230 /* RoundTextFieldAdapter.swift in Sources */,
+				3796E46B26648088006B8230 /* GridView.swift in Sources */,
+				3796E523266488C0006B8230 /* OTPTextField.swift in Sources */,
+				3796E527266488C0006B8230 /* OTPTextFieldData.swift in Sources */,
+				3796E51C266488C0006B8230 /* OTPFieldConfiguration.swift in Sources */,
+				3796E46A26648088006B8230 /* PieChart.swift in Sources */,
+				3796E46826648088006B8230 /* CustomOTPTextField.swift in Sources */,
+				3796E47C26648088006B8230 /* LoadingAction.swift in Sources */,
+				3796E522266488C0006B8230 /* RoundPinView.swift in Sources */,
+				3796E48226648088006B8230 /* BeagleApp.swift in Sources */,
+				3796E525266488C0006B8230 /* UIView.swift in Sources */,
+				3796E524266488C0006B8230 /* BaseInputView.swift in Sources */,
+				3796E51F266488C0006B8230 /* DefaultPinView.swift in Sources */,
+				3796E46526648088006B8230 /* AccountBalance.swift in Sources */,
+				3796E48326648088006B8230 /* BeagleTitleStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
